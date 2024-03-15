@@ -1,0 +1,64 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-body {
+  background-color: rgb(110, 137, 137);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.sig-container {
+  width: 450px;
+  height: 200px;
+  border: 1px solid grey;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.sig-btn {
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+}
+.but-btn {
+  width: 100px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+  border: transparent;
+  background: #c00;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+.sig-image {
+  padding: 10px;
+  background-color: #fff;
+  max-width: 350px;
+  border-radius: 5px;
+}
+.display {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
